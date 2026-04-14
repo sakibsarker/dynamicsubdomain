@@ -1,8 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Next.js Website Builder Platform
 
-## Getting Started
+This project is a modern **Next.js-based website builder** designed to create and manage **subdomain-based websites**, similar to platforms like WordPress and Wix.
 
-First, run the development server:
+It enables users to quickly launch websites using **pre-built templates** or fully **customized themes**, making it ideal for scalable multi-tenant applications.
+
+---
+
+## ✨ Features
+
+* 🌐 **Subdomain-Based Architecture**
+  Automatically handles dynamic websites under subdomains (e.g., `site.example.com`)
+
+* 🎨 **Template & Custom Theme Support**
+  Users can:
+
+  * Choose from ready-made templates
+  * Customize layouts, styles, and content
+
+* ⚡ **High Performance (Next.js)**
+  Built with modern Next.js features for:
+
+  * Fast page loads
+  * SEO optimization
+  * Server-side rendering (SSR) / Static generation (SSG)
+
+* 🔍 **SEO-Friendly Structure**
+  Optimized for search engines with dynamic metadata and routing
+
+* 🧩 **Scalable Multi-Site System**
+  Designed to support multiple websites from a single platform
+
+---
+
+## 🛠️ Getting Started
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +46,62 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Start editing the main page:
 
-## Learn More
+```
+app/page.tsx
+```
 
-To learn more about Next.js, take a look at the following resources:
+Changes will automatically reflect in the browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🏗️ Project Purpose
 
-## Deploy on Vercel
+This platform is built to:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Provide a **website-as-a-service (WaaS)** solution
+* Allow users to **create websites instantly**
+* Manage multiple websites using **subdomain routing**
+* Offer flexibility like **WordPress/Wix with modern performance**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📚 Tech Stack
+
+* **Framework:** Next.js (App Router)
+* **Styling:** Tailwind CSS (or your preferred system)
+* **Fonts:** Optimized using `next/font`
+* **Deployment:** Vercel / Custom Server (Nginx supported)
+
+---
+
+## 🚀 Deployment
+
+The recommended way to deploy is using **Vercel**, but it also supports:
+
+* Custom VPS (e.g., Ubuntu + Nginx)
+* Subdomain routing configurations
+* Scalable production environments
+
+---
+
+## 🤝 Contribution
+
+Contributions, ideas, and improvements are welcome. Feel free to fork the repo and submit a PR.
+
+---
+
+## 📌 Summary
+
+This project is a **modern, scalable website builder platform** that combines the flexibility of **custom themes** with the simplicity of **template-based creation**, powered by the performance of Next.js.
+
+---
+
+> Build once. Launch unlimited websites. Scale effortlessly.
